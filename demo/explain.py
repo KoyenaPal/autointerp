@@ -3,7 +3,7 @@ from autointerp.automation import OpenRouterClient, Explainer
 from autointerp import load, make_quantile_sampler
 
 EXPLAINER_MODEL = "meta-llama/Llama-3.3-70B-Instruct"
-FEATURE_PATH = "/root/autointerp/cache/model.layers.0.pt"
+FEATURE_PATH = "/share/u/koyena/llama-8b-cache-two"
 
 async def explain():
     client = OpenRouterClient(EXPLAINER_MODEL)

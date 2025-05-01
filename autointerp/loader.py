@@ -126,7 +126,7 @@ def _load(
 
         if examples is None:
             print(f"Not enough examples found for feature {feature}")
-            continue
+            # continue
 
         feature = Feature(
             index=feature,
@@ -134,7 +134,8 @@ def _load(
             activating_examples=examples,
         )
         features.append(feature)
-
+    # print(f"Loaded {len(features)} features")
+    # print(f"Features: {features}", flush=True)
     return features
 
 
@@ -157,9 +158,10 @@ def load(
         max_examples: Maximum number of examples to load. Set to -1 to load all.
         load_non_activating: Number of non-activating examples to load.
     """
+    #print(f"Loading features from {path}", flush=True)
     data = t.load(path)
     tokens = t.load(data["tokens_path"])
-
+    #print(f"Tokens: {tokens}", flush=True)
     tokenizer = AutoTokenizer.from_pretrained(data["model_id"])
 
     # Locations corresponds to rows of (batch, seq, feature)
@@ -196,4 +198,5 @@ def load(
         random_sampler = RandomSampler(tokenizer, tokens, locations, ctx_len)
         random_sampler(features, n_examples=load_random_non_activating)
 
+    print(f"Loaded {len(features)} features", flush=True)
     return features

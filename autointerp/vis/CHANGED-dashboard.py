@@ -21,24 +21,26 @@ def make_dashboard(
 def make_feature_display(
     cache_dirs: List[str], features: Dict[str, List[int]], **load_kwargs
 ):
+    cache_dirs = [cache_dirs]
     backends = [
         Backend(cache_dir, None, load_model=False) for cache_dir in cache_dirs
     ]
     dash = FeatureDisplay()
 
-    display(dash.root)
+    # display(dash.root)
 
     loaded_features = {}
     with dash:
+        print("backends", backends)
         for backend in backends:
             # Hookpoint should be the directory name
             hookpoint = backend.hook_module
+            print("HOOKPOINT", hookpoint)
             loaded = backend.query(
                 features[hookpoint], as_dict=False, **load_kwargs
             )
             loaded_features.update(loaded)
-
-
+    print(loaded_features, flush=True)
     dash.display(loaded_features)
 
 
@@ -172,17 +174,13 @@ class FeatureVisualizationDashboard:
             )
 
             # Put this in here so tqdm is displayed in the output widget
-            # Call inference_query, which returns a dictionary {hookpoint: List[InferenceResult]}
-            results_dict = self.model.inference_query(
+            query_results_dict = self.model.inference_query(
                 self.text_input.value,
                 selected_indices,
                 k=k_value,
                 **self.load_kwargs,
             )
-            print(f"DEBUG: Dictionary passed to display (from _on_run_clicked): {results_dict}", flush=True)
-            
-        # Pass the dictionary directly to display
-        self.feature_display.display(results_dict)
+        self.feature_display.display(query_results_dict)
 
     def _on_reset_clicked(self, b):
         """Handle reset button click."""

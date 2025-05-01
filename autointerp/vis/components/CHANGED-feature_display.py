@@ -78,47 +78,63 @@ class FeatureDisplay(Component):
 
         return query_result.feature
 
-    def display(self, features: Dict[str, List[InferenceResult | Feature]]):
+    def display(self, features_dict: Dict[str, List[InferenceResult | Feature]]):
         """Display the top features for the selected tokens."""
         with self.feature_display:
             clear_output()
 
             display(HTML(TOOLTIP))
-            for hookpoint, features in features.items():
+            # Iterate through the dictionary items (hookpoint and the list of results)
+            for hookpoint, results_list in features_dict.items():
 
                 display(HTML(f"<h2>{hookpoint}</h2>"))
-                for query_result in features:
-                    ## --- DEBUGGING START ---
-                    #print(f"DEBUG: Processing query_result of type: {type(query_result)}")
-                    #if isinstance(query_result, str):
-                    #    print(f"DEBUG: String value: {query_result}")
-                    ## --- DEBUGGING END ---
 
-                    index = (
-                        query_result.index
-                        if isinstance(query_result, Feature)
-                        else query_result.feature.index
-                    )
-                    display(HTML(f"<h4>Feature {index}</h4>"))
+                # Iterate through the list of InferenceResult or Feature objects
+                for query_result in results_list:
+                    # --- DEBUGGING START ---
+                    print(f"DEBUG: Processing query_result of type: {type(query_result)}")
+                    if isinstance(query_result, str):
+                        print(f"DEBUG: String value: {query_result}")
+                    # --- DEBUGGING END ---
+
+                    # Original problematic code:
+                    try: # Add try-except to potentially get more info if it fails
+                        index = (
+                            query_result.index
+                            if isinstance(query_result, Feature)
+                            else query_result.feature.index
+                        )
+                        display(HTML(f"<h4>Feature {index}</h4>"))
+                    except AttributeError as e:
+                        print(f"ERROR accessing index for query_result: {query_result}")
+                        print(f"Error details: {e}")
+                        # Optionally re-raise or handle
+                        raise e # Re-raise to see the original traceback context
 
                     if isinstance(query_result, InferenceResult):
-                        query_result = self._display_inference_example(query_result)
+                        # This returns the underlying Feature object after displaying inference info
+                        feature_obj = self._display_inference_example(query_result)
+                    elif isinstance(query_result, Feature):
+                         # If it's already a Feature object
+                        feature_obj = query_result
+                    else:
+                        # Handle the unexpected string case gracefully if needed,
+                        # otherwise the error above will stop execution.
+                        print(f"WARN: Skipping unexpected item of type {type(query_result)}")
+                        continue # Skip this item
 
-                    # Only add dropdown if there are activating examples
-                    try:
-                        if query_result.activating_examples:
+                    # Use the potentially updated feature_obj
+                    if feature_obj.activating_examples:
                         # Display activating examples directly
-                            for example in query_result.activating_examples:
-                                example_html = self._example_to_html(example)
-                                display(
+                        for example in feature_obj.activating_examples:
+                            example_html = self._example_to_html(example)
+                            display(
                                 HTML(
-                                        ACTIVATING_EXAMPLE_WRAPPER.format(
-                                            example=example_html,
-                                        )
+                                    ACTIVATING_EXAMPLE_WRAPPER.format(
+                                        example=example_html,
                                     )
                                 )
-                    except AttributeError:
-                        print(f"No activating examples found for feature {index}.")
+                            )
 
     def _example_to_html(
         self,

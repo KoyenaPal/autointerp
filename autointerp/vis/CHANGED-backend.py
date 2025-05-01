@@ -31,8 +31,13 @@ class Backend:
         load_model: bool = True,
         in_memory: bool = False,
     ):
+        #cache_dir = "/share/u/koyena/llama-8b-cache-two-k-128/model.layers.15/"
+        #print("HARDCODING CACHE DIR", cache_dir)
+        print("CACHE DIR", cache_dir)
         header_path = os.path.join(cache_dir, "header.parquet")
+        # print("HEADER PATH", header_path)
         self.header = pd.read_parquet(header_path)
+        # print("HEADER", self.header)
         self.cache_dir = cache_dir
 
         # Load the model id from the first shard
@@ -41,6 +46,7 @@ class Backend:
 
         # Load model artifacts
         if load_model:
+            print("LOADING MODEL", model_id)
             self.model = AutoModelForCausalLM.from_pretrained(
                 model_id,
                 torch_dtype=t.bfloat16,
@@ -114,11 +120,10 @@ class Backend:
     ) -> Dict[int, Feature]:
         feature_data = self.header[self.header["feature_idx"].isin(features)]
         indices = feature_data["feature_idx"].tolist()
-        #print("feature idx", indices, flush=True)
 
         max_examples = load_kwargs.pop("max_examples", 5)
         sampler = make_quantile_sampler(n_examples=max_examples, n_quantiles=1)
-        #print("sampler", sampler, flush=True)
+
         loaded_features = _load(
             self.cache["tokens"],
             self.cache["locations"],
@@ -129,8 +134,6 @@ class Backend:
             max_examples=max_examples,
             **load_kwargs,
         )
-        print("Loaded features in memory")
-        print(loaded_features)
 
         return {f.index: f for f in loaded_features}
 
@@ -201,17 +204,20 @@ class Backend:
 
         query_results = []
         for index in top_feature_list:
-            f = loaded_features[self.hook_module][index]
+            if index not in loaded_features:
+                print("INDEX NOT IN LOADED FEATURES", index)
+            else:
+                f = loaded_features[index]
 
-            example = Example(
-                tokens=None,
-                str_tokens=prompt_str_tokens,
-                activations=encoder_acts[:, f.index],
-                normalized_activations=None,
-                quantile=None,
-            )
+                example = Example(
+                    tokens=None,
+                    str_tokens=prompt_str_tokens,
+                    activations=encoder_acts[:, f.index],
+                    normalized_activations=None,
+                    quantile=None,
+                )
 
-            query_result = InferenceResult(feature=f, inference_example=example)
-            query_results.append(query_result)
+                query_result = InferenceResult(feature=f, inference_example=example)
+                query_results.append(query_result)
 
         return {self.hook_module: query_results}
