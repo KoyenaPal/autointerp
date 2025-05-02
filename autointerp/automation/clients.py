@@ -128,9 +128,10 @@ class LogProbsClient:
         self.tokenizer = tokenizer
 
     def _prepare_input(self, conversations: List[Conversation]):
-        for conversation in conversations:
-            if conversation[-1]["role"] != "assistant":
-                raise ValueError("Last message must be an assistant message")
+        # why tho
+        # for conversation in conversations:
+        #     if conversation[-1]["role"] != "assistant":
+        #         raise ValueError("Last message must be an assistant message")
 
         inputs = self.tokenizer.apply_chat_template(
             conversations,
