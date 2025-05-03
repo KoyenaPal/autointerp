@@ -231,7 +231,7 @@ def cache_activations(
 
     with tqdm(total=max_tokens, desc="Caching features") as pbar:
         for batch_number, batch in enumerate(token_batches):
-            batch = batch.to("cuda")
+            batch = batch.to("cuda:0")
             with TraceDict(
                 model, list(submodule_dict.keys()), stop=True
             ) as ret:

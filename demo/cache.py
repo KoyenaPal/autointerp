@@ -56,7 +56,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_id)
 
 # %%
 
-SAE_LAYER = 15
+SAE_LAYER = 23
 RELEASE = "llama_scope_r1_distill"
 SAE_ID = f"l{SAE_LAYER}r_400m_slimpajama_400m_openr1_math"
 
@@ -90,7 +90,7 @@ tokens = tokens["input_ids"]
 
 cache = cache_activations(
     model=model.to(DEVICE),
-    submodule_dict={"model.layers.15": encode},
+    submodule_dict={"model.layers.23": encode},
     tokens=tokens,
     batch_size=8,
     max_tokens=10_000_000,
@@ -98,7 +98,7 @@ cache = cache_activations(
 
 # %%
 
-save_dir = "/disk/u/koyena/llama-8b-cache-sae-lens-with-slimpajama"
+save_dir = "/disk/u/koyena/llama-8b-cache-sae-lens-with-slimpajama-L23"
 cache.save_to_disk(
     save_dir=save_dir,
     model_id=model_id,

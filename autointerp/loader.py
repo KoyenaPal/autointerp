@@ -147,6 +147,7 @@ def load(
     max_examples: int = 2_000,
     load_similar_non_activating: int = 0,
     load_random_non_activating: int = 0,
+    data: dict | None = None
 ) -> List[Feature]:
     """Load cached activations from disk.
 
@@ -157,11 +158,14 @@ def load(
         ctx_len: Sequence length of each example.
         max_examples: Maximum number of examples to load. Set to -1 to load all.
         load_non_activating: Number of non-activating examples to load.
+        data: Optional dictionary.
     """
     #print(f"Loading features from {path}", flush=True)
-    data = t.load(path)
+    if data is None:
+        data = t.load(path)
     tokens = t.load(data["tokens_path"])
-    #print(f"Tokens: {tokens}", flush=True)
+        #print(f"Tokens: {tokens}", flush=True)
+    
     tokenizer = AutoTokenizer.from_pretrained(data["model_id"])
 
     # Locations corresponds to rows of (batch, seq, feature)

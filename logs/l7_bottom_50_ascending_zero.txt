@@ -1,0 +1,263 @@
+Starting explanation script...
+Using explainer model: openai/gpt-4o-mini
+Loading data from cache: /disk/u/koyena/llama-8b-cache-sae-lens-with-slimpajama-L7/model.layers.7
+Loading data for 50 features...
+Need to load 33 unique shards.
+Combining filtered data...
+Finished loading. Returning data for 50 features.
+Processing loaded feature data...
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+
+Generating explanations for 50 processed features...
+
+--- Explanations ---
+Feature ID: 1256
+Explanation:
+Repeated use of the phrases "very first" and "very last" indicating significance in chronological order, alongside phrases like "brand new" suggesting freshness or novelty.
+----------------------------------------------------------------------------------------------------
+Feature ID: 1530
+Explanation:
+Patterns of narrative structures, including quotations, references to time, and engagement with various subjects in written discourse.
+----------------------------------------------------------------------------------------------------
+Feature ID: 3150
+Explanation:
+The presence of varied terminologies indicating complex structures, compliance, and procedural content, often accompanied by action-oriented phrases and contextual explanations.
+----------------------------------------------------------------------------------------------------
+Feature ID: 3680
+Explanation:
+Usage of specific phrases and structures that suggest introduction or stipulation, typically indicating a condition or subject matter.
+----------------------------------------------------------------------------------------------------
+Feature ID: 3699
+Explanation:
+The frequent use of the keyword "import" in combination with package declarations and Java class imports, indicating the inclusion of external libraries and dependencies in code samples.
+----------------------------------------------------------------------------------------------------
+Feature ID: 4698
+Explanation:
+Expressions indicating a problem-solving process with an instructional tone, often followed by an imperative or directive.
+----------------------------------------------------------------------------------------------------
+Feature ID: 4813
+Explanation:
+Frequent use of phrases that enhance descriptions, convey instructions, or indicate specific situations, often featuring emphatic language or comparisons.
+----------------------------------------------------------------------------------------------------
+Feature ID: 5351
+Explanation:
+Presence of numerical values, varied percentages, and specialized terminology indicating quantifiable data across several contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 5484
+Explanation:
+Use of transitional phrases to indicate logical conclusions or implications in mathematical contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 5572
+Explanation:
+Diverse text elements, including proper nouns, events, and descriptors that encompass a range of informational or narrative content, often indicated by initial formatting and quotes.
+----------------------------------------------------------------------------------------------------
+Feature ID: 7784
+Explanation:
+Frequent use of conversational punctuation and phrases indicating thought processes or questions, often leading to elaborate explanations in problem-solving contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 8251
+Explanation:
+Text often includes HTML, script tags, programming language comments, and code snippets with a mix of identifiers and attributes.
+----------------------------------------------------------------------------------------------------
+Feature ID: 8304
+Explanation:
+The presence of numerical or textual delimiters indicates structured information, often relating to steps or components within a discussion or calculation.
+----------------------------------------------------------------------------------------------------
+Feature ID: 8759
+Explanation:
+Presence of proper nouns and common phrases related to specific contexts, often indicating subjects, products, or actions within text segments.
+----------------------------------------------------------------------------------------------------
+Feature ID: 9487
+Explanation:
+Use of a period to denote sentence endings or segment separations in various contexts, often in formal or structured texts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 9859
+Explanation:
+Text examples include various statements and descriptions often ending with punctuation marks, indicating a separation of ideas or sections, with some focusing on specific topics or narratives.
+----------------------------------------------------------------------------------------------------
+Feature ID: 10280
+Explanation:
+Common use of descriptive phrases and structures, often leading with various adjectives and nouns to elaborate on subjects, with instances of numeric values and specific contexts present.
+----------------------------------------------------------------------------------------------------
+Feature ID: 10850
+Explanation:
+Frequent interruptions of thoughts or clarifications indicated by transitional phrases, often connected to logical reasoning or explanations.
+----------------------------------------------------------------------------------------------------
+Feature ID: 12258
+Explanation:
+Entries formatted as blog posts including metadata such as timestamps, authors, and categories often followed by an opinion or commentary.
+----------------------------------------------------------------------------------------------------
+Feature ID: 12547
+Explanation:
+Mathematical terms related to trigonometric functions and their properties, often introducing equations or identities.
+----------------------------------------------------------------------------------------------------
+Feature ID: 12915
+Explanation:
+The text contains explanations or instructions, often leading to a conclusion or next steps, with segments frequently concluding with an ellipsis or transitional phrase.
+----------------------------------------------------------------------------------------------------
+Feature ID: 13836
+Explanation:
+Consistent structure indicating sentence beginnings and references to diverse subjects, often annotated with specific roles or contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 13893
+Explanation:
+The phrase referring to a group of items or individuals, often followed by a verb, indicating that they are part of a larger context or problem.
+----------------------------------------------------------------------------------------------------
+Feature ID: 14648
+Explanation:
+Text contains explanations or calculations followed by clarifications or formulas, often concluded with a summarizing statement or result.
+----------------------------------------------------------------------------------------------------
+Feature ID: 14700
+Explanation:
+Presence of encoded or formatted tokens alongside a variety of topic discussions, primarily highlighting specific terms, references, or segments of text.
+----------------------------------------------------------------------------------------------------
+Feature ID: 14713
+Explanation:
+Common structure involves phrases, often containing emphasis or specific details, set up with introductory markers that suggest transition or highlight importance.
+----------------------------------------------------------------------------------------------------
+Feature ID: 16943
+Explanation:
+Use of decimal numbers with the consistent appearance of the period as a decimal separator in mathematical contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 17394
+Explanation:
+Use of mathematical concepts and procedures combined with narrative elements, often switching to a direct statement or elaboration following a punctuation mark.
+----------------------------------------------------------------------------------------------------
+Feature ID: 18403
+Explanation:
+Text includes a mix of quotations, numerical references, and specific contextual terms related to film and geometry, showcasing a diverse representation of discussions in different contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 18585
+Explanation:
+The use of terminal punctuation and connectors within logical or mathematical reasoning, emphasizing conclusions or transitions in thought.
+----------------------------------------------------------------------------------------------------
+Feature ID: 20273
+Explanation:
+The structure features sentences introducing various topics, often in a formal or informational tone, with specific formatting indicating the beginning of sentences and citation of sources or quotes.
+----------------------------------------------------------------------------------------------------
+Feature ID: 21478
+Explanation:
+All examples showcase tokens indicating the beginning of sentences or phrases, often structured in a specific format to denote organization or importance.
+----------------------------------------------------------------------------------------------------
+Feature ID: 21907
+Explanation:
+Text features structured with specific markers indicating the beginning of sentences, often incorporating various themes and contexts within diverse formats.
+----------------------------------------------------------------------------------------------------
+Feature ID: 21939
+Explanation:
+The text includes a mix of various types of informative statements and examples, often punctuated with arbitrary delimiters and indicating thought processes, corrections, or clarifications.
+----------------------------------------------------------------------------------------------------
+Feature ID: 22209
+Explanation:
+Mathematical expressions using "equal to," "implies," and "therefore" to denote relationships and solutions in equations.
+----------------------------------------------------------------------------------------------------
+Feature ID: 22251
+Explanation:
+The text features a format that indicates the beginning of sentences, with various elements such as dialogue, descriptions of items, or topics discussed within that context.
+----------------------------------------------------------------------------------------------------
+Feature ID: 23063
+Explanation:
+Transitional phrases indicating a shift in thought, often followed by a rationale or exploration of alternative interpretations.
+----------------------------------------------------------------------------------------------------
+Feature ID: 23393
+Explanation:
+Text examples exhibit truncated words that suggest incomplete phrases or text fragments, indicating potential edits or annotations.
+----------------------------------------------------------------------------------------------------
+Feature ID: 23773
+Explanation:
+Common phrases indicating causation or explanation, often starting with "what" and involving descriptions of uniqueness or specific characteristics.
+----------------------------------------------------------------------------------------------------
+Feature ID: 24475
+Explanation:
+Presence of descriptive information about individuals, including their roles, experiences, and expertise, often found in journalistic contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 24766
+Explanation:
+Use of delimiters to denote specific numerical ranges or conditions in a mathematical context, often accompanied by verification or consideration of different scenarios.
+----------------------------------------------------------------------------------------------------
+Feature ID: 25793
+Explanation:
+Conjunctions and transitional phrases used to guide the logical flow of mathematical reasoning and problem-solving.
+----------------------------------------------------------------------------------------------------
+Feature ID: 26608
+Explanation:
+The presence of programming and mathematical syntax, including function definitions, object properties, and mathematical expressions, often accompanied by special formatting to delineate code or equations.
+----------------------------------------------------------------------------------------------------
+Feature ID: 27001
+Explanation:
+Text illustrating a structured format, often including direct answers, specific dates, or multimedia references, along with a series of informative or conversational statements.
+----------------------------------------------------------------------------------------------------
+Feature ID: 27098
+Explanation:
+The use of conjunctions like "but" and "however" to introduce contrasting ideas or exceptions in a logical argument or discussion.
+----------------------------------------------------------------------------------------------------
+Feature ID: 28997
+Explanation:
+Frequent use of the conjunction "but" to introduce contrasting or limiting conditions in mathematical reasoning.
+----------------------------------------------------------------------------------------------------
+Feature ID: 30727
+Explanation:
+Patterns in the examples indicate a mix of structured sentence beginnings, specific terminology related to roles or professions, along with general queries and discussions likely from informal communication.
+----------------------------------------------------------------------------------------------------
+Feature ID: 31422
+Explanation:
+Presence of code snippets with method definitions, attributes, and comments, often interspersed with programming syntax elements.
+----------------------------------------------------------------------------------------------------
+Feature ID: 31758
+Explanation:
+The phrase indicating substitution followed by mathematical expressions or equations, emphasizing the process of integrating new values into existing formulas.
+----------------------------------------------------------------------------------------------------
+Feature ID: 32328
+Explanation:
+The text examples contain various elements such as mathematical operators, programming syntax, and natural language expressions, frequently involving punctuation or special characters that function as delimiters or annotations.
+----------------------------------------------------------------------------------------------------
+Explanation script finished.

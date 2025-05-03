@@ -1,0 +1,263 @@
+Starting explanation script...
+Using explainer model: openai/gpt-4o-mini
+Loading data from cache: /disk/u/koyena/llama-8b-cache-sae-lens-with-slimpajama-L23/model.layers.23
+Loading data for 50 features...
+Need to load 34 unique shards.
+Combining filtered data...
+Finished loading. Returning data for 50 features.
+Processing loaded feature data...
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+
+Generating explanations for 50 processed features...
+
+--- Explanations ---
+Feature ID: 224
+Explanation:
+The presence of phrases indicating obligations or necessities, often using the structure "have to" or similar variants, reflecting characters or subjects facing requirements or challenges.
+----------------------------------------------------------------------------------------------------
+Feature ID: 445
+Explanation:
+Phrases initiating sentences in different contexts, often followed by quotations or detailed information.
+----------------------------------------------------------------------------------------------------
+Feature ID: 1004
+Explanation:
+Text includes statistical data and identifiers for sports events, teams, and player performance, often accompanied by numerical values and years of participation.
+----------------------------------------------------------------------------------------------------
+Feature ID: 2208
+Explanation:
+Text examples feature structured prompts that request step-by-step reasoning and emphasize the importance of providing a final answer within a specified format.
+----------------------------------------------------------------------------------------------------
+Feature ID: 3617
+Explanation:
+Usage of transitional phrases that signify hesitation or contemplation, often followed by explanatory details in a mathematical context.
+----------------------------------------------------------------------------------------------------
+Feature ID: 3698
+Explanation:
+A mixture of complete sentences and code snippets, interspersed with diverse sentence structures and contexts, often including specific noun phrases and quotations.
+----------------------------------------------------------------------------------------------------
+Feature ID: 4700
+Explanation:
+Text examples commonly begin with a quotation or descriptive phrase, often indicating a personal narrative or informational context.
+----------------------------------------------------------------------------------------------------
+Feature ID: 5364
+Explanation:
+Structured data entries with multiple attributes formatted with commas, including addresses, sizes, dates, and prices, often containing numerical values reflecting monetary amounts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 5918
+Explanation:
+Text features include detailed explanations and descriptions related to technology, especially concerning Windows 95 and its user interface, often presenting observations about scrolling and performance.
+----------------------------------------------------------------------------------------------------
+Feature ID: 5964
+Explanation:
+Text features include a pattern of recounting answers followed by a verification process, often questioning accuracy and the need to double-check calculations.
+----------------------------------------------------------------------------------------------------
+Feature ID: 8167
+Explanation:
+Common interjections expressing surprise or emphasis, often suggesting a conversational tone and providing commentary on the preceding content.
+----------------------------------------------------------------------------------------------------
+Feature ID: 8355
+Explanation:
+Mathematical expressions and operations being described with a focus on calculations and evaluations, often leading to interim conclusions or requests for verification.
+----------------------------------------------------------------------------------------------------
+Feature ID: 9132
+Explanation:
+Frequent use of the conjunction "but" to introduce contrasting ideas or to provide transitions in discourse.
+----------------------------------------------------------------------------------------------------
+Feature ID: 10102
+Explanation:
+The presence of structured prompts or quotes often followed by contextual elaboration or examples, showcasing a blend of conversational and narrative elements.
+----------------------------------------------------------------------------------------------------
+Feature ID: 10898
+Explanation:
+The text features a variety of fragmented thoughts, conversational cues, and a mix of informal commentary, often interrupted by punctuation and incomplete sentences.
+----------------------------------------------------------------------------------------------------
+Feature ID: 10971
+Explanation:
+The use of transitional phrases, often starting with "But," indicates shifts in tone or introduces contrasting ideas within narratives.
+----------------------------------------------------------------------------------------------------
+Feature ID: 11090
+Explanation:
+Use of transitional words "though" and "but" to introduce contrasting ideas or conditions within a statement.
+----------------------------------------------------------------------------------------------------
+Feature ID: 11868
+Explanation:
+Dialogue interspersed with narrative sections, often featuring exclamations or questions, indicating character interactions and emotions.
+----------------------------------------------------------------------------------------------------
+Feature ID: 12063
+Explanation:
+Frequent use of punctuation marks, particularly sentence-ending periods and various delimiters, often accompanying specialized terms or phrases within clinical or technical contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 12326
+Explanation:
+The presence of segments indicating different kinds of text, including comments, opinions, and narratives, often marked by punctuation and specific phrasing.
+----------------------------------------------------------------------------------------------------
+Feature ID: 12755
+Explanation:
+Text begins with a specific marker denoting the start of sentences or user prompts, often containing a designated format or context.
+----------------------------------------------------------------------------------------------------
+Feature ID: 13300
+Explanation:
+Use of transitional phrases that indicate reconsideration or uncertainty, often followed by elaboration or clarification.
+----------------------------------------------------------------------------------------------------
+Feature ID: 14266
+Explanation:
+The presence of thematic phrases or titles related to various topics, often formatted to denote significance, followed by contextual information or commentary.
+----------------------------------------------------------------------------------------------------
+Feature ID: 14558
+Explanation:
+Presence of punctuation surrounding statements, often indicating emphasis or emotional tone in conversational or written discourse.
+----------------------------------------------------------------------------------------------------
+Feature ID: 15272
+Explanation:
+Presence of instructions or queries, often related to reasoning or problem-solving, frequently accompanied by punctuation marks.
+----------------------------------------------------------------------------------------------------
+Feature ID: 16565
+Explanation:
+Sentences begin with a specific delimiter and often include conversational prompts or quotations, showing a structured dialogue or informational format.
+----------------------------------------------------------------------------------------------------
+Feature ID: 17357
+Explanation:
+Expressions that confirm calculations and answers, often leading to a boxed final answer that summarizes the result.
+----------------------------------------------------------------------------------------------------
+Feature ID: 17456
+Explanation:
+Text examples showcase structured sentence beginnings followed by varying content types, including names, dates, and inquiries, often formatted to indicate a formal or technical context.
+----------------------------------------------------------------------------------------------------
+Feature ID: 17539
+Explanation:
+Inclusion of phrases and context often indicating dialogue, action, or temporal references while emphasizing noun phrases and descriptive elements.
+----------------------------------------------------------------------------------------------------
+Feature ID: 18679
+Explanation:
+In the text, there are structured prompts or instructions interspersed with quotations, emphasizing user interaction and contextual dialogue.
+----------------------------------------------------------------------------------------------------
+Feature ID: 19952
+Explanation:
+Each example begins with a designated marker indicating the start of a new sentence, often including varied topics and contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 20233
+Explanation:
+Structured text featuring introductory markers for sentences, alongside various functional words and terms that contribute to expressiveness and clarity.
+----------------------------------------------------------------------------------------------------
+Feature ID: 20915
+Explanation:
+The use of connecting phrases such as "but" indicates a contrast or contradiction in reasoning within mathematical problem-solving.
+----------------------------------------------------------------------------------------------------
+Feature ID: 21279
+Explanation:
+Text features indicating diverse topics such as music, historical sites, and experiences presented in various sentence fragments, often starting with a specific identifier.
+----------------------------------------------------------------------------------------------------
+Feature ID: 21334
+Explanation:
+Final answers presented in a standard format, consistently indicating confidence in selected options characterized by specific letters.
+----------------------------------------------------------------------------------------------------
+Feature ID: 21963
+Explanation:
+A blend of informal discussions and opinions on gaming and media, featuring question formats, expressions of frustration, and frequent references to gaming franchises and experiences.
+----------------------------------------------------------------------------------------------------
+Feature ID: 22012
+Explanation:
+Each text example begins with a specific format that includes indicators like "begin of sentence" and user prompts, suggesting structured interactions or inquiries.
+----------------------------------------------------------------------------------------------------
+Feature ID: 22054
+Explanation:
+Presence of various structured data and text formatting elements, including numerical references, names, and dates, often found alongside segment indicators like parentheses or quotation marks.
+----------------------------------------------------------------------------------------------------
+Feature ID: 23565
+Explanation:
+Presence of diverse topics ranging from legal disclaimers to personal narratives, often fragmented and including a variety of idiomatic expressions or phrases.
+----------------------------------------------------------------------------------------------------
+Feature ID: 23794
+Explanation:
+The text features consistent formatting that includes segments starting with a specific marker for the beginning of a sentence, often including additional context or metadata such as user identifiers or source characteristics.
+----------------------------------------------------------------------------------------------------
+Feature ID: 24730
+Explanation:
+The examples consist of sentences containing various elements, such as dialogue, requests, and information, often formatted with specific notations or punctuation, indicating a structured approach to language use.
+----------------------------------------------------------------------------------------------------
+Feature ID: 25322
+Explanation:
+Structured sentences that frequently include direct address and references to time, events, or notable figures while also incorporating user instructions.
+----------------------------------------------------------------------------------------------------
+Feature ID: 25914
+Explanation:
+The use of the conjunction "but" frequently introduces contrasting or clarifying thoughts, highlighting the speaker's thought process or adjustments in reasoning.
+----------------------------------------------------------------------------------------------------
+Feature ID: 27858
+Explanation:
+Text begins with a specific marker indicating the start of sentences, often followed by diverse content ranging from events to personal reflections and academic references.
+----------------------------------------------------------------------------------------------------
+Feature ID: 28859
+Explanation:
+Transitional phrases and examples are used to introduce and elaborate on mathematical concepts or arguments.
+----------------------------------------------------------------------------------------------------
+Feature ID: 29352
+Explanation:
+The text features a pattern of iterative thoughts, with phrases indicating reconsideration or correction, often represented by "Wait" followed by elaboration or clarification.
+----------------------------------------------------------------------------------------------------
+Feature ID: 29428
+Explanation:
+Presence of time markers, tags, and notes indicating user interactions or responses within a conversation in a digital context.
+----------------------------------------------------------------------------------------------------
+Feature ID: 29536
+Explanation:
+Text features that indicate the beginning of sentences, often with annotations or specific formatting for user input and context.
+----------------------------------------------------------------------------------------------------
+Feature ID: 30186
+Explanation:
+Structured introductions often indicating categories, topics, or titles, frequently followed by details and explanations.
+----------------------------------------------------------------------------------------------------
+Feature ID: 30298
+Explanation:
+Text features mathematical problem-solving processes, including defining conditions, considering different approaches, and performing step-by-step reasoning.
+----------------------------------------------------------------------------------------------------
+Explanation script finished.

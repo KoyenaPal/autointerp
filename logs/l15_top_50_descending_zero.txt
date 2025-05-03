@@ -1,0 +1,263 @@
+Starting explanation script...
+Using explainer model: openai/gpt-4o-mini
+Loading data from cache: /disk/u/koyena/llama-8b-cache-sae-lens-with-slimpajama/model.layers.15
+Loading data for 50 features...
+Need to load 29 unique shards.
+Combining filtered data...
+Finished loading. Returning data for 50 features.
+Processing loaded feature data...
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+Loaded 1 features
+
+Generating explanations for 50 processed features...
+
+--- Explanations ---
+Feature ID: 2103
+Explanation:
+Instances of transitional phrases indicating contrast or additional information, often starting with "But" or similar expressions, are prevalent across various contexts to shift the narrative or introduce a new perspective.
+----------------------------------------------------------------------------------------------------
+Feature ID: 3599
+Explanation:
+The presence of introductory phrases or markers indicating the beginning of sentences, often leading into varied content such as descriptions, inquiries, or information about specific subjects.
+----------------------------------------------------------------------------------------------------
+Feature ID: 5252
+Explanation:
+Text examples often begin with a labeling phrase indicating the start of a sentence, followed by diverse content types including music titles, academic references, and personal reflections.
+----------------------------------------------------------------------------------------------------
+Feature ID: 5714
+Explanation:
+Text consistently begins with a structured format indicating the start of a sentence, often including identifiers and contextual descriptors.
+----------------------------------------------------------------------------------------------------
+Feature ID: 6185
+Explanation:
+The text includes structured annotations and diverse content ranging from user prompts to informative statements, often beginning with a consistent introductory phrase.
+----------------------------------------------------------------------------------------------------
+Feature ID: 6357
+Explanation:
+Each example indicates the start of a new sentence or thought, often followed by relevant information or a prompt.
+----------------------------------------------------------------------------------------------------
+Feature ID: 7716
+Explanation:
+Text features include structured sentences beginning with markers and detailing various topics or narratives, often incorporating numerical information and distinct genres.
+----------------------------------------------------------------------------------------------------
+Feature ID: 9137
+Explanation:
+Sentences indicating a need for verification or caution, often accompanied by transitional phrases suggesting alternative approaches or thoughts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 9523
+Explanation:
+Text passages contain quotes, factual descriptions, and detailed narratives mostly focused on films and historical events, often marking significant elements related to ongoing themes or character developments.
+----------------------------------------------------------------------------------------------------
+Feature ID: 9550
+Explanation:
+Structured sentences often starting with specific delimiters, featuring quotes or technical terminology outlining various topics.
+----------------------------------------------------------------------------------------------------
+Feature ID: 9861
+Explanation:
+Presence of various verbs and adjectives reflecting actions or states, often in a narrative or instructional context.
+----------------------------------------------------------------------------------------------------
+Feature ID: 10005
+Explanation:
+Frequent use of transitional phrases that indicate pausing for reconsideration or clarification, often starting with "But" and followed by expressions of doubt or the need to double-check information.
+----------------------------------------------------------------------------------------------------
+Feature ID: 10059
+Explanation:
+A mix of conversational snippets, user interactions, and expressions of gratitude or opinions contextualized by various speakers or authors, often marked by informal dialogue styles.
+----------------------------------------------------------------------------------------------------
+Feature ID: 10969
+Explanation:
+Frequent use of noun phrases and consistent inclusion of transitional phrases, often indicating shifts in emotion, environment, or action within dialogues.
+----------------------------------------------------------------------------------------------------
+Feature ID: 11346
+Explanation:
+Expressions indicating clarification or emphasis, often preceding or following a noun or a statement, suggesting a conversational tone.
+----------------------------------------------------------------------------------------------------
+Feature ID: 11459
+Explanation:
+Text featuring a high degree of complexity, with multiple clauses and a variety of punctuation, indicating detailed, formal discourse across diverse topics.
+----------------------------------------------------------------------------------------------------
+Feature ID: 13087
+Explanation:
+The structure includes a variety of sentences beginning with different forms of address, descriptions, or quotations, often featuring a diverse set of content ranging from personal reflections to informational contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 13787
+Explanation:
+Text featuring a mix of technical jargon, medical terminology, sports references, and casual conversation with a tendency towards incomplete sentences or fragments.
+----------------------------------------------------------------------------------------------------
+Feature ID: 14478
+Explanation:
+Structured sentences often beginning with a quotation marker and containing a sequence of symbols or instructions, such as requests or titles, indicating a formal or transactional context.
+----------------------------------------------------------------------------------------------------
+Feature ID: 14599
+Explanation:
+Frequent use of punctuation marks, particularly periods and commas, at the end of sentence fragments and phrases, interspersed with mixed content involving medical terminology and procedural descriptions.
+----------------------------------------------------------------------------------------------------
+Feature ID: 15811
+Explanation:
+Text examples contain a mix of programming syntax and personal narrative, indicating a blend of technical discussion and storytelling.
+----------------------------------------------------------------------------------------------------
+Feature ID: 16155
+Explanation:
+The use of punctuation marks, especially periods and question marks, to signify pauses, conclusions, or inquiries within a mathematical or analytical discourse.
+----------------------------------------------------------------------------------------------------
+Feature ID: 16267
+Explanation:
+Each example begins with a specific token structure indicating the start of a sentence or interaction, often followed by names or commands with some form of response expected.
+----------------------------------------------------------------------------------------------------
+Feature ID: 16468
+Explanation:
+Each example features a distinct type of introductory phrase or title, typically indicating the beginning of a new section or topic, often followed by varied content.
+----------------------------------------------------------------------------------------------------
+Feature ID: 17410
+Explanation:
+Text featuring a structured format with a consistent beginning marker followed by various types of content, often including proper nouns, categorized elements, or disjointed phrases.
+----------------------------------------------------------------------------------------------------
+Feature ID: 17587
+Explanation:
+Use of the term "but" to introduce contrasting ideas or clarify exceptions in problem-solving contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 18287
+Explanation:
+Each example begins with a distinct opening phrase or context, often setting up varied themes such as music, research, personal reflections, and interactive queries.
+----------------------------------------------------------------------------------------------------
+Feature ID: 18604
+Explanation:
+Inconsistencies in formatting, mixed content, and repetitive phrases, often including references to social connectivity or specific media.
+----------------------------------------------------------------------------------------------------
+Feature ID: 19193
+Explanation:
+The word "but" is frequently used as a conjunction to introduce contrasts or contradictions, often indicating a shift in reasoning or perspective throughout the text.
+----------------------------------------------------------------------------------------------------
+Feature ID: 19297
+Explanation:
+All examples begin with a specific marker indicating the start of a sentence or dialogue, and the following text varies in context, including quotes, questions, and statements, suggesting diverse themes and formats within structured discourse.
+----------------------------------------------------------------------------------------------------
+Feature ID: 20456
+Explanation:
+Text features structured in a format that suggests various dialogue, requests, or data entries with consistent markers for sentence beginnings.
+----------------------------------------------------------------------------------------------------
+Feature ID: 20621
+Explanation:
+Recurrent phrases and elements suggest a transitional tone or informative nature, with a mix of personal insights and practical advice, often addressing the audience directly.
+----------------------------------------------------------------------------------------------------
+Feature ID: 21002
+Explanation:
+Requests for step-by-step reasoning to solve mathematical problems, often formatted with a prompt for a final answer in a specific style.
+----------------------------------------------------------------------------------------------------
+Feature ID: 21444
+Explanation:
+Text segments often contain detailed information, typically beginning with a statement or quotation and including varied contexts such as personal reflections, discussions on cooperation, and technical explanations.
+----------------------------------------------------------------------------------------------------
+Feature ID: 21689
+Explanation:
+Common themes include requests for structured reasoning, detail-oriented instructions, and the presence of numerical and contextual data related to various subjects.
+----------------------------------------------------------------------------------------------------
+Feature ID: 22091
+Explanation:
+Text structures indicating the beginning of sentences or phrases, often with specific contextual identifiers like names or topics.
+----------------------------------------------------------------------------------------------------
+Feature ID: 22152
+Explanation:
+Each entry starts with a specific marker indicating the beginning of a sentence, often followed by dialogue prompts, questions, or various identifiers.
+----------------------------------------------------------------------------------------------------
+Feature ID: 22400
+Explanation:
+Text features include continuation or elaboration on previous thoughts, often marked by transitions or confirmations, facilitating deeper exploration of ideas.
+----------------------------------------------------------------------------------------------------
+Feature ID: 23114
+Explanation:
+The text contains a mixture of incomplete sentences, fragments, and varied contexts, often interspersed with non-standard characters and formatting, suggesting a disorganized collection of notes, thoughts, or online communications.
+----------------------------------------------------------------------------------------------------
+Feature ID: 23544
+Explanation:
+The text features a mix of distinct phrases related to industrial machinery and legal issues, often with specific references to locations and time-specific updates.
+----------------------------------------------------------------------------------------------------
+Feature ID: 23759
+Explanation:
+Repeated structure indicating the beginning of sentences with variable content, often listing specific elements or addressing different subjects.
+----------------------------------------------------------------------------------------------------
+Feature ID: 25506
+Explanation:
+Frequent use of transitional phrases indicating clarification or progression in thought, particularly in mathematical or logical reasoning contexts.
+----------------------------------------------------------------------------------------------------
+Feature ID: 28588
+Explanation:
+Common use of specific structural elements and phrases indicating programming code or markup language syntax.
+----------------------------------------------------------------------------------------------------
+Feature ID: 28788
+Explanation:
+Expressions indicating future possibilities or outcomes, often conveyed through modal verbs, suggest inevitability or necessity in the context presented.
+----------------------------------------------------------------------------------------------------
+Feature ID: 28818
+Explanation:
+Framed thoughts and explanations followed by logical steps or calculations related to mathematical concepts and problem-solving.
+----------------------------------------------------------------------------------------------------
+Feature ID: 28839
+Explanation:
+Text features indicating various data formats, including locations, programming snippets, XML markup, and personal communications.
+----------------------------------------------------------------------------------------------------
+Feature ID: 28858
+Explanation:
+Mathematical symbols and expressions containing variable representations, operations, and comparative elements, often structured in a problem-solving format.
+----------------------------------------------------------------------------------------------------
+Feature ID: 31239
+Explanation:
+The presence of structured tokens indicating code or data formatting, often using special characters for delineation.
+----------------------------------------------------------------------------------------------------
+Feature ID: 31730
+Explanation:
+Each example begins with a specified marker indicating the start of a new sentence or statement, followed by diverse content types that include personal reflections, questions, academic discourse, or informal expressions.
+----------------------------------------------------------------------------------------------------
+Feature ID: 31779
+Explanation:
+Frequent references to kitchen pantry design ideas and organization concepts, often with repeated descriptors emphasizing smallness and functionality.
+----------------------------------------------------------------------------------------------------
+Explanation script finished.

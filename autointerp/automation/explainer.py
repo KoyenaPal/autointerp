@@ -1,7 +1,7 @@
 import re
 
 from .prompts.explainer_prompt import build_prompt
-from .clients import HTTPClient, LogProbsClient
+from .clients import HTTPClient
 from ..base import Feature
 
 
@@ -18,12 +18,8 @@ class Explainer:
 
     async def __call__(self, feature: Feature, **generation_kwargs):
         messages = self._build_prompt(feature)
-        print(messages)
-        # if client is LogProbsClient, we need to pass the logprobs to the generate method
-        if isinstance(self.client, LogProbsClient):
-            response = self.client.generate(messages, **generation_kwargs)
-        else:
-            response = await self.client.generate(messages, **generation_kwargs)
+
+        response = await self.client.generate(messages, **generation_kwargs)
 
         if self.verbose:
             with open(f"response-{feature.index}.txt", "w") as f:

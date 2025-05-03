@@ -37,8 +37,7 @@ def make_feature_display(
                 features[hookpoint], as_dict=False, **load_kwargs
             )
             loaded_features.update(loaded)
-
-
+    print(f"DEBUG: Dictionary passed to display (from make_feature_display): {loaded_features}", flush=True)
     dash.display(loaded_features)
 
 
